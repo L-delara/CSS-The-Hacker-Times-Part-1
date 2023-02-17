@@ -3,14 +3,6 @@ body {
   font-family: Source Sans Pro;
   background-color: #eee;
 }
-.newspaper-container {
-  max-width: 700px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 2px #ddd;
-  margin: 0 auto;
-  padding: 15px 20px;
-  background-color: #fff;
-}
 
 h1 {
   text-align: center;
@@ -52,4 +44,23 @@ nav {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
   text-align: center;
+}
+
+.newspaper-container {
+  max-width: 700px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px #ddd;
+  margin: 0 auto;
+  padding: 15px 20px;
+  background-color: #fff;
+}
+.read-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+#more-reads {
+  max-width: 150px;
+  max-height: 200px;
 }
