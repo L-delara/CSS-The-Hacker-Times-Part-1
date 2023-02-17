@@ -25,10 +25,10 @@ h5 {
 }
 a {
   text-decoration: none;
-  color: #777;
+  color: #706f6f;
 }
 a:hover {
-  color: rgb(230, 182, 190);
+  color: rgb(224, 161, 171);
 }
 ul {
   list-style: none;
@@ -36,7 +36,6 @@ ul {
 }
 li {
   display: inline-block;
-
   padding: 0 5px;
   color: #777;
 }
@@ -45,7 +44,12 @@ nav {
   border-bottom: 1px solid #eee;
   text-align: center;
 }
-
+footer {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  font-size: 12px;
+}
 .newspaper-container {
   max-width: 700px;
   border-radius: 8px;
