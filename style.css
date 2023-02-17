@@ -13,11 +13,18 @@ h2 {
   margin-bottom: 0;
   font-family: Roboto Slab;
 }
+h3 {
+  font-family: Roboto Slab;
+}
+h4 {
+  font-family: Roboto Slab;
+}
 h5 {
   font-size: 20px;
   color: rgba(219, 30, 61, 0.877);
   margin-top: 5px;
 }
+
 #hero-image {
   display: block;
   width: 690px;
@@ -50,6 +57,9 @@ footer {
   text-align: center;
   font-size: 12px;
 }
+.other-news-images {
+  display: block;
+}
 .newspaper-container {
   max-width: 700px;
   border-radius: 8px;
@@ -63,6 +73,11 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   text-align: center;
+}
+.more-articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 #more-reads {
   max-width: 150px;
