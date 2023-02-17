@@ -6,7 +6,7 @@ body {
 .newspaper-container {
   max-width: 700px;
   border-radius: 8px;
-  box-shadow: 1px 1px #ddd;
+  box-shadow: 2px 2px 2px #ddd;
   margin: 0 auto;
   padding: 15px 20px;
   background-color: #fff;
