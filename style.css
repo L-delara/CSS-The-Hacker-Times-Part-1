@@ -35,7 +35,8 @@ a {
   color: #706f6f;
 }
 a:hover {
-  color: rgb(224, 161, 171);
+  color: rgb(221, 128, 144);
+  transition: 125ms ease-in-out;
 }
 ul {
   list-style: none;
@@ -51,7 +52,7 @@ nav {
   border-bottom: 1px solid #eee;
   text-align: center;
   position: sticky;
-  top: 5px;
+  top: 3px;
   background-color: white;
 }
 footer {
@@ -76,6 +77,8 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   text-align: center;
+  font-size: 14px;
+  font-weight: 300;
 }
 .more-articles {
   display: flex;
